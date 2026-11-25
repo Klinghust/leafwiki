@@ -2,6 +2,7 @@ import autohotkey from 'highlight.js/lib/languages/autohotkey'
 import bash from 'highlight.js/lib/languages/bash'
 import dockerfile from 'highlight.js/lib/languages/dockerfile'
 import http from 'highlight.js/lib/languages/http'
+import lisp from 'highlight.js/lib/languages/lisp'
 import nginx from 'highlight.js/lib/languages/nginx'
 import nix from 'highlight.js/lib/languages/nix'
 import powershell from 'highlight.js/lib/languages/powershell'
@@ -12,6 +13,7 @@ import { common } from 'lowlight'
 export const syntaxHighlightLanguages = {
   ...common,
   autohotkey,
+  autolisp: lisp,
   bash,
   sh: bash,
   shell,
